@@ -1,0 +1,11 @@
+name: ServerCopy
+version: ${project.version}
+main: red.man10.servercopy.ServerCopy
+commands:
+  scopy:
+    description: Command no setsumei
+    usage: /<command>
+    default: true
+permissions:
+  scopy.use:
+    default: OP
